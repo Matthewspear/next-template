@@ -1,13 +1,17 @@
 {
   "name": "next-template",
+  "description": "Template to get started quick with Typescript, Next.js and Tailwind",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "TAILWIND_MODE=watch next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.3",
+    "@heroicons/react": "^1.0.5",
     "autoprefixer": "^10.4.2",
     "next": "12.0.8",
     "postcss": "^8.4.5",
@@ -16,6 +20,7 @@
     "tailwindcss": "^3.0.15"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.0",
     "@types/node": "17.0.9",
     "@types/react": "17.0.38",
     "eslint": "8.7.0",
