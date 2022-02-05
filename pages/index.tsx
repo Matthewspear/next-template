@@ -1,14 +1,14 @@
-import Metatags from "@/components/Metatags";
+import Metatags from '@/components/Metatags';
 
 export default function Home() {
   return (
-    <div className="w-full h-screen max-w-md sm:max-w-2xl mx-auto">
+    <div className="mx-auto h-screen w-full max-w-md sm:max-w-2xl">
       <Metatags
         title="Template Site"
         description="This site is a template"
         image=""
       />
-      <div className="pt-8 flex flex-col prose prose-lg prose-slate">
+      <div className="prose prose-lg prose-slate flex flex-col pt-8">
         <h1 className="text-4xl font-semibold">Template Site</h1>
         <p>
           A blank page ready for you to build your ideas 🚀
